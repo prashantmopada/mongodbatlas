@@ -38,7 +38,7 @@ def create_collection_many():
 
             my_collection.insert_many(mydict1)
         except exception as e: print(e)
-        return "Many records inserted"
+        return "Many records have inserted"
 
 
 if __name__ == "__main__":
